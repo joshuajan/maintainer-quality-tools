@@ -210,7 +210,7 @@ def setup_server(db, odoo_unittest, tested_addons, server_path,
                      "--db_user=odoo",
                      "--db_password=odoo",
                      "--db_port=5432",
-                     "--log-level=debug",
+                     "--log-level=debug_sql",
                      "--stop-after-init",
                      "--init", ','.join(preinstall_modules),
                      ] + install_options
